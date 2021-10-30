@@ -90,7 +90,6 @@ EEEEEEEEEEEEEEEEEEEEEEXXXXXXX      TTTTTTTTTTTTTTTTTTTTTTTCCCCCOOOOOOOOOEEEEEEEE
                                                                                                                         
                                                                                                                         
                                                                                                                         %s%s
-
                 # Coded By Umoru John - github-- /jjohnny001 | instagram-- @johnumorujo
     """ % (G, W, Y))
 banner()
@@ -108,8 +107,9 @@ ws = wb[f'{str(sheet)}']
 rows = ws.iter_rows(min_row=2, max_row=3, min_col=1, max_col=6)
 #you can comment this out and also remove it from #OUTPUT
 numbe = 1
-fyle = open(str(output),"a")
-print (f"converting {str(note)} to {str(output)}" +W)
+newname = (f'{str(output)}.docx')
+fyle = open(newname,"a")
+print (f"converting {str(note)} to {str(output)}.docx" +W)
 #output
 for a,b,c,d,e,f in tqdm(rows):
         q = a.value
@@ -125,9 +125,8 @@ for a,b,c,d,e,f in tqdm(rows):
 (c): {c}
 (d): {d}
 Answer: {ans}
-
 """)
 #you should stop edit here
         numbe += 1
 fyle.close()
-print (f"done converting {str(note)} to {str(output)}")
+print (f"done converting {str(note)} to {str(output)}.docx")
