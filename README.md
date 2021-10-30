@@ -1,5 +1,7 @@
-# exceltodocx
+# excel2docx
 using openpyxl to extract values from a spreadsheet 
+convert excel to docx
+convert excel to normal txt format
 
 
 **Installation:**
