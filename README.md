@@ -1,7 +1,6 @@
 # excel2docx
-using openpyxl to extract values from a spreadsheet 
-convert excel to docx
-convert excel to normal txt format
+python script to convert excel/xls format to word
+extract contents of an excel file
 
 
 **Installation:**
