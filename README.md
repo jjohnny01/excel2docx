@@ -1,4 +1,5 @@
 # excel2docx
+# convert excel document to word (docx)
 python script to convert excel/xls format to word
 extract contents of an excel file
 using openpyxl to extract data
