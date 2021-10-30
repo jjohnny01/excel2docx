@@ -1,4 +1,4 @@
-#!python3
+#!/usr/bin/python3
 from openpyxl.workbook import Workbook
 from openpyxl import load_workbook
 from tqdm import tqdm
@@ -94,6 +94,9 @@ EEEEEEEEEEEEEEEEEEEEEEXXXXXXX      TTTTTTTTTTTTTTTTTTTTTTTCCCCCOOOOOOOOOEEEEEEEE
                 # Coded By Umoru John - github-- /jjohnny001 | instagram-- @johnumorujo
     """ % (G, W, Y))
 banner()
+print (W + """Usage: 'exceltodocx' + 'name of excel file' + 'Sheet1(or the name of the spreadsheet)***case sensitive' + 'name of output file'""" + B)
+print ("""edit #output area to suit your needs
+""" +G)
 #system arguments
 note = sys.argv[1]
 output = sys.argv[3]
@@ -101,15 +104,12 @@ sheet = sys.argv[2]
 wb = load_workbook(str(note))
 #print(wb.sheetnames)
 ws = wb[f'{str(sheet)}']
-print (W + """Usage: 'python3' + exceltodocx + name of excel file + Sheet1(or the name of the spreadsheet)***case sensitive + name of output file""" + B)
-print (f"converting {str(note)} to {str(output)}" +W)
-print ("""edit #output area to suit your needs
-""" +G)
 #select min row and column here!
 rows = ws.iter_rows(min_row=2, max_row=3, min_col=1, max_col=6)
 #you can comment this out and also remove it from #OUTPUT
 numbe = 1
 fyle = open(str(output),"a")
+print (f"converting {str(note)} to {str(output)}" +W)
 #output
 for a,b,c,d,e,f in tqdm(rows):
         q = a.value
