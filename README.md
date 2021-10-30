@@ -9,4 +9,4 @@ run the install.sh script
 **Usage:**
 'excel2docx' + 'name of excel file' + 'Sheet1(or the name of the spreadsheet)(it's case sensitive)' + 'name of output file'
 
-![image](https://user-images.githubusercontent.com/32548080/139518568-97808c6c-e03e-4641-a281-bb70df75fc22.png)
+![Screenshot_2021-10-29_23_26_41](https://user-images.githubusercontent.com/32548080/139518794-27d79ba5-be90-43fd-b3a2-c2a5b98b5504.png)
