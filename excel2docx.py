@@ -94,7 +94,7 @@ EEEEEEEEEEEEEEEEEEEEEEXXXXXXX      TTTTTTTTTTTTTTTTTTTTTTTCCCCCOOOOOOOOOEEEEEEEE
                 # Coded By Umoru John - github-- /jjohnny001 | instagram-- @johnumorujo
     """ % (G, W, Y))
 banner()
-print (W + """Usage: 'exceltodocx' + 'name of excel file' + 'Sheet1(or the name of the spreadsheet)***case sensitive' + 'name of output file'""" + B)
+print (W + """Usage: 'excel2docx' + 'name of excel file' + 'Sheet1(or the name of the spreadsheet)***case sensitive' + 'name of output file'""" + B)
 print ("""edit #output area to suit your needs
 """ +G)
 #system arguments
